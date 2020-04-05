@@ -28,11 +28,9 @@
 9. Un archivo es un conjunto de bytes almacenados en memoria, generalmente en el disco duro.
 10. Algoritmo en c++.
 
-int main()
-{
+int main(){
     int n,suma;
     float promedio;
-
     cout<<"Ingrese cant de núm a almacenar: ";
     cin>>n;
     int a[n];
