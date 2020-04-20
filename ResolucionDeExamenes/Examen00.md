@@ -1,7 +1,7 @@
 # Parte I
 1. Un ingeniero en sistemas de información construye sistemas manuales o automáticos para que alguien, al utilizarlo correctamente,pueda resolver un problema.
 2. La información son datos procesados, materia prima para la toma de decisiones de valor semántico.
-3. Las asignaturas del área de la programación son matemática discreta, algoritmo y estructura de datos, sintaxis y semántica de los lenguajes, paradigma de programación, gestión de datos e ingeniería en software.
+3. Las asignaturas del área de la programación son matemática discreta, algoritmo y estructura de datos, sintaxis y semántica de los lenguajes, paradigma de programación y gestión de datos.
 4. Las asignaturas del área de sistema de información son sistema y organizaciones, análisis de sistemas, diseño de sistema, administración de recursos y proyecto final.
 5. El paradigma aplicado en 1er año es el procedural.
 6. La abstracción es algo conceptual que se separa de su contexto para realizar un enfoque en lo más importante.
