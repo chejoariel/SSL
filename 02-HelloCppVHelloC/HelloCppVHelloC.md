@@ -1,4 +1,5 @@
-| -- | Cabecera C | Cabecera C++
-| programa | c | c++
+| -- | Cabecera C | Cabecera C++ |
+| --- | --- | --- |
+| programa | c | c++ |
 
 
