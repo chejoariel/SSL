@@ -1,14 +1,6 @@
-| -- | Cabecera C | Cabecera C++ |
+| -- | C | C++ |
 | --- | --- | --- |
-| programa | #include <stdio.h>
-int main() {
-    printf(“Hello, World!\n”);
-}
- | #include <iostream>
-int main() {
-    std::cout << “Hello, World!\n”;
-} 
-|
+| programa | #include <stdio.h> int main(){printf(“Hello, World!\n”);}| #include <iostream> int main() {std::cout << “Hello, World!\n”;}|
 
 
 
