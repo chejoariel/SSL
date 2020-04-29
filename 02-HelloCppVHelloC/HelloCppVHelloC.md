@@ -1,11 +1,11 @@
-## C
+## c
 '''
 #include <stdio.h> 
 int main(){
     printf(“Hello, World!\n”);
 }
 ''' 
-## C++
+## c++
 '''
 #include <iostream> 
 int main() {
