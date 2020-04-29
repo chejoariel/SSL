@@ -12,9 +12,8 @@ int main() {
     std::cout << “Hello, World!\n”;
 }
 ```
-| -- | similitudes | diferencias |
-| --- | --- | --- |
-
+| --         | similitudes                                        |                                  diferencias |
+| ---        | ---                                                |                                          --- |
 | léxico     | El token include, main, (), <>, etc. son similares | Los tokens de input de entrada son distintos.|
 |            |                                                    | En C es printf. En C++ es std::cout          |
 | sintáctico | La estructura sintácticamente son similares.       |                                              |
