@@ -1,1 +1,1 @@
-#Fase y traducción de errores
+Fase y traducción de errores
