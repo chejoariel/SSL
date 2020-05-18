@@ -1,6 +1,6 @@
 # Fase y traducción de errores
 
-+ 2) 
++ 2
 comando ejecutado:
 	'gcc -E hello2.c -o hello2.i'
 Análisis del archivo hello2.i:
