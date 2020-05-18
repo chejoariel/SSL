@@ -45,28 +45,28 @@ warning: implicit declaration of function 'prontf'; did you mean 'printf'? [-Wim
        |  printf
 ````
 Sugiere que utilicemos printf.
-``
+````
 error: expected declaration or statement at end of input
-``
+````
 Esperaba una declaración. Falta una llave de cierre.
 
 ### 7) 
 comando ejecutado: 
-``
+````
 gcc -E hello4.c -o hello4.i
-``
+````
 Resultado:    
 Agregó en la cabecera 4 líneas de comandos. Similares al archivo hello3.i
-``	
+````
 # 1 "hello4.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "hello4.c"
-``
+````
 comando ejecutado:
-``
+````
 gcc -S hello4.c -o hello4.s
-``
+````
 Resultado:    
 El archivo hello4.s es un archivo compilado en lenguaje ensamblador.
 
@@ -76,17 +76,17 @@ Investigación: El archivo hello4.s
 
 ### 9)
 comando ejecutado:
-``
+````
 as -o hello4.o hello.s
-``
+````
 Resultado:    
 El archivo hello4.o es un archivo ensamblado en lenguaje máquina.
 
 ### 10)
 comando ejecutado:
-``
+````
 gcc -o hello4 hello4.o
-``
+````
 Crea el ejecutable hello4 que invocando por su nombre nos da como resultado: ``La respuesta es 4200688``
 
 
