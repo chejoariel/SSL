@@ -14,5 +14,6 @@ código:
 ```
 	int printf(const char *s, ...); 
 ```
-resultado:  Se trata de una declaración o prototipo de una función llamado printf que contiene una serie de parámetros.
+resultado:  
+Se trata de una declaración o prototipo de una función llamado printf que contiene una serie de parámetros.
 
