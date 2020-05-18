@@ -87,6 +87,48 @@ comando ejecutado:
 ````
 gcc -o hello4 hello4.o
 ````
-Crea el ejecutable hello4 que invocando por su nombre nos da como resultado: ``La respuesta es 4200688``
+Crea el ejecutable ``hello4`` que invocando por su nombre nos da como resultado: ``La respuesta es 4200688``
+
+### 11)
+comando ejecutado:
+´´´´
+gcc -o hello5 hello5.c
+´´´´
+Crea el archivo ejecutable ``hello5``
+
+### 12)
+comando ejecutado:
+´´´´
+	hello5
+
+´´´´
+no da como resultado: ´´La respuesta es 42´´        
+El resultado es correcto.
+
+### 13)
+No hay más correcciones, el resultado en el paso 12) fue el esperado.
+
+### 14)
+comando ejecutado:
+````
+gcc -o hello7 hello7.c
+````
+No da como resultado:
+````
+hello7.c: In function 'main':
+hello7.c:3:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    3 |  printf("La respuesta es %d\n", i);
+      |  ^~~~~~
+hello7.c:3:2: warning: incompatible implicit declaration of built-in function 'printf'
+hello7.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int main(void){
+````
+A pesar de las advertencias sí ejecuto el archivo ``hello7``. Nos da como resultado:
+````
+La respuesta es 42
+````
+Esto se debe que a pesar de las advertencias el linker se encarga de vincular las funciones de la biblioteca stdio que el compilador no encontró.
+
 
 
