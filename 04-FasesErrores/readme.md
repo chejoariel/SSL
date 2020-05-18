@@ -38,12 +38,12 @@ gcc -S hello3.c
 ```
 Resultado:    
 No realizó la compilación. Tiro una advertencia y un error.
-``
+````
 warning: implicit declaration of function 'prontf'; did you mean 'printf'? [-Wimplicit-function-declaration]
     4 |  prontf("La respuesta es %d\n");
        |  ^~~~~~
        |  printf
-``
+````
 Sugiere que utilicemos printf.
 ``
 error: expected declaration or statement at end of input
