@@ -100,7 +100,7 @@ comando ejecutado:
 ````
 hello5
 ````
-no da como resultado: ´´La respuesta es 42´´        
+no da como resultado: ``La respuesta es 42``    
 El resultado es correcto.
 
 ### 13)
