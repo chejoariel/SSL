@@ -71,8 +71,7 @@ Resultado:
 El archivo hello4.s es un archivo compilado en lenguaje ensamblador.
 
 ### 8)
-Investigación: El archivo hello4.s 
-//
+Investigación: El archivo hello4.s ...
 
 ### 9)
 comando ejecutado:
@@ -91,17 +90,16 @@ Crea el ejecutable ``hello4`` que invocando por su nombre nos da como resultado:
 
 ### 11)
 comando ejecutado:
-´´´´
+````
 gcc -o hello5 hello5.c
-´´´´
+````
 Crea el archivo ejecutable ``hello5``
 
 ### 12)
 comando ejecutado:
-´´´´
-	hello5
-
-´´´´
+````
+hello5
+````
 no da como resultado: ´´La respuesta es 42´´        
 El resultado es correcto.
 
