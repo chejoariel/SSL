@@ -2,7 +2,7 @@
 
 ## 1.  Lenguaje C vs Lenguaje JavaScript
 
-a. *¿El tipo es parte del lenguaje en algún nivel?*
+a. ***¿El tipo es parte del lenguaje en algún nivel?***
 
 I. **Lenguaje JavaScript**
 
@@ -13,7 +13,7 @@ II. **Lenguaje C**
 
 Los Strings no pertenecen como tipo de dato en C, para ello es necesario utilizar la biblioteca <string.h>.
 
-b. *¿El tipo es parte de la biblioteca?*
+b. ***¿El tipo es parte de la biblioteca?***
 
 I. **Lenguaje JavaScript**
 
@@ -24,7 +24,7 @@ II. **Lenguaje C**
 La biblioteca <string.h> no define el tipo de dato String, lo que hace es definir funciones para manipularlos y el compilador transforma la cadena de caracteres encerrado entre "" 
 como un arreglo de char.
 
-c. *¿Qué alfabeto usa?*
+c. ***¿Qué alfabeto usa?***
 
 I. **Lenguaje Javascript**
 
@@ -34,7 +34,7 @@ II. **Lenguaje C**
 
 En C el alfabeto que se usa para un char es UTF-8. 
 
-d. *¿Cómo se resuelve la alocación de memoria?**
+d. ***¿Cómo se resuelve la alocación de memoria?***
 
 I. **Lenguaje Javascript**
 
@@ -45,7 +45,7 @@ II. **Lenguaje C**
 Los lenguajes de bajo nivel, como C, tienen primitivos de bajo nivel como malloc() y free() para la gestión de memoria. Por ende la liberación de memoria se realiza
 de forma explícita.
 
-e. *¿El tipo tiene mutabilidad o es inmutable?*
+e. ***¿El tipo tiene mutabilidad o es inmutable?***
 
 I. **Lenguaje Javascript**
 
@@ -55,7 +55,7 @@ II. **Lenguaje C**
 
 El string en C es mutable. Para lograr que sea inmutable se puede utilizar la varible const al momento de declararla.
 
-f. *¿El tipo es un first class citizen?*
+f. ***¿El tipo es un first class citizen?***
 
 Un *first class citizen* es una entidad que soporta todas las operaciones generalmente disponibles para otras entidades. Por lo general, estas operaciones incluyen pasarlas como un argumento, devolverlas de una función, modificarlas y asignarlas a una variable.
 
@@ -72,7 +72,7 @@ Escribir el string resultante en un bloque de memoria facilitado a la función c
 
 Para String y arreglos en general no se pueden asignar valores directamente excepto en el momento de declaración del arreglo.
 
-g. *¿Cuál es la mecánica para ese tipo cuando se lo pasa como argumentos?*
+g. ***¿Cuál es la mecánica para ese tipo cuando se lo pasa como argumentos?***
 
 I. **Lenguaje JavaScript**
 
@@ -82,7 +82,7 @@ II. **Lenguaje C**
 
 El tipo String se puede enviar como argumento de una función a través de un puntero señalando el comienzo de la cadena y además la cadena debe finalizar con un caracter nulo de finalización: '\0'.
 
-h. *¿Y cuando son retornados por una función?*
+h. ***¿Y cuando son retornados por una función?***
 
 I. **Lenguaje JavaScript**
 
